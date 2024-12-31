@@ -1,9 +1,11 @@
-import "./index.css";
+import Title from "./components/Title";
+import Content from "./components/Content";
 
 function App() {
   return (
     <>
-      <div>Setup Project</div>
+      <Title />
+      <Content />
     </>
   );
 }
